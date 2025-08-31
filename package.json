@@ -1,0 +1,27 @@
+{
+  "name": "adex",
+  "version": "1.0.0",
+  "description": "Attendance backend with Express and Firebase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrxCode-tech/ADEX.git"
+  },
+  "keywords": [],
+  "author": "DrxCode-tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrxCode-tech/ADEX/issues"
+  },
+  "homepage": "https://github.com/DrxCode-tech/ADEX#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5",
+    "firebase-admin": "^13.4.0"
+  }
+}
